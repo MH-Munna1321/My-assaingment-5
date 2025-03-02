@@ -67,3 +67,13 @@ function getCurrentTime() {
 document.getElementById("clear-btn").addEventListener("click", function(){
   document.getElementById("history-container").innerText = ""
 })
+
+document.getElementById("discover-btn").addEventListener("click", function(){
+  window.location.href = ("../blogs.html")
+})
+
+
+
+document.getElementById("home-btn").addEventListener("click", function(){
+  window.location.href = ("../index.html")
+})
