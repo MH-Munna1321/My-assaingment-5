@@ -1,6 +1,4 @@
-document.getElementById("discover-btn").addEventListener("click", function(){
-    window.location.href = ("../blogs.html")
-})
+
 let colors = ["red", "blue", "green", "purple", "orange"];
     let index = 0;
 document.getElementById("colorChange-btn").addEventListener("click", function(event){
